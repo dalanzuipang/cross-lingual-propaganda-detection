@@ -1,34 +1,5 @@
 # P POLISH: DETAILED TABLES
 
-**对应论文正文位置：**
-- **Section 6.1** "Polish: Translation Augmentation Success" - 本附录是该小节的详细数据支持
-- 正文中引用多个具体数据：
-  - "Baseline degenerates on Task 2 (Macro F1=0.53%)" → Table 12
-  - "Name_Calling-Labeling (F1=0.904), exceeding RU (0.649)" → Table 14
-  - "Loaded_Language contributes 31.1% of total FP, and the top five techniques contribute 66.8%" → Table 15
-  - "Weak techniques... with F1 < 0.3 are dominated by low support" → Table 16
-- **Table 4** - Table 17是其Polish部分的详细版
-
-**内容说明：**
-本附录提供Polish语言的6个详细表格：
-1. **Table 12**: Baseline vs. Augmented方法对比（验证H1）
-2. **Table 13**: 三种检测方法的性能对比（paragraph-level + span-level）
-3. **Table 14**: Name_Calling的跨语言性能对比（Polish优势明显）
-4. **Table 15**: Top 5 False Positives及集中度分析
-5. **Table 16**: 弱技术列表（F1<0.3，主要受low support影响）
-6. **Table 17**: 三种方法的优缺点和适用场景
-
-**对应正文位置：**
-- **Section 6.1 "Polish: Translation Augmentation Success"** (第6页)：正文提到"baseline Macro F1=0.53%... Sup-FT reaches 52.23%... Name_Calling F1=0.904... top five techniques contribute 66.8%"，本附录提供支撑这些结论的6个详细表格
-- **Table 1** (第5页)：正文Table 1展示核心指标，本附录Table 12-17提供Polish的完整分析
-
-**说明：** 本附录包含6个Polish语言的详细表格：
-- **Table 12**: Baseline vs. 增强方法对比（展示98.6倍的性能提升）
-- **Table 13**: 三种方法的全面性能对比
-- **Table 14**: Name_Calling跨语言性能（Polish优势明显）
-- **Table 15**: Top-5 FP集中度分析（66.8%）
-- **Table 16**: 弱技术列表（F1<0.3，主要因样本不足）
-- **Table 17**: 三种方法的优缺点和适用场景
 
 ## Table 12: Polish Baseline vs. Augmented Methods (Task 2: technique multi-label classification)
 
