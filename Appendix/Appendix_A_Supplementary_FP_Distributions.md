@@ -1,20 +1,5 @@
 # A SUPPLEMENTARY FP DISTRIBUTIONS
 
-**对应论文正文位置：**
-- **Section 5.2** "FP Concentration and Hallucination" - 提供了三个语言的详细FP分布数据，扩展了Table 3
-- **Section 6.1** "Polish: Translation Augmentation Success" - 支持Polish的FP集中度分析
-- **Section 6.2** "Russian: Low-Resource Specialization" - 支持Russian的FP分散度分析
-- 正文中简要提到："EN approaches a single-peak regime: total FP is 4,697, with Loaded_Language contributing 2,287 FPs (48.7%)"，本附录提供完整的Top-10列表
-
-**内容说明：**
-本附录提供三个语言（English, Polish, Russian）使用Sup-FT方法在span-level检测中的Top-10 False Positive技术详细统计，包括FP数量、占比和对应的F1分数。
-
-**对应正文位置：**
-- **Section 5.2 "FP Concentration and Hallucination"** (第5页)：正文Table 3仅展示了Top-10 FP技术的排名和部分数据，本附录提供完整的三语言FP分布表格
-- **Section 7 "English vs. Polish: Performance Comparison"** (第7页)：正文提到"EN shows markedly higher FP concentration: Loaded_Language accounts for 48.7%"，本附录提供详细数据支撑
-
-**说明：** 本附录详细列出了三个语言（English、Polish、Russian）在Sup-FT方法下的Top-10 False Positive技术，包括FP数量、占比和F1分数。这些表格支持正文中关于"English FP集中度异常高（48.7%）而Polish和Russian更分散"的结论。
-
 ## Table 6: Polish Top-10 False Positive Techniques (Sup-FT, Total FP=4,012)
 
 | Rank | Technique | FP | FP-only Share |
