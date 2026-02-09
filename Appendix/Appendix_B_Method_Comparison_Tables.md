@@ -1,22 +1,5 @@
 # B SUPPLEMENTARY METHOD COMPARISON TABLES
 
-**对应论文正文位置：**
-- **Table 1** (Section 5.1) - 本附录Table 9是Table 1的完整扩展版，增加了所有评估指标
-- **Table 4** (Section 6.3) - 本附录Table 10与正文Table 4相同，展示三种方法的优缺点对比
-- **Section 6.3** "Validation of H1, H2, and H3" - 使用本附录数据验证三个假设
-- 正文中引用："see Table 1" (多处引用性能数据)
-
-**内容说明：**
-本附录提供两个核心对比表格：
-1. Table 9: 三种方法在三个语言上的全景性能对比（9行×6列指标）
-2. Table 10: Sup-FT、Prompt-A、Iter-Ens三种方法在7个维度上的优缺点对比
-
-**对应正文位置：**
-- **Table 1 "Performance comparison of three methods"** (第5页)：正文表格仅展示核心指标，本附录Table 9提供完整的9行×6列全景对比
-- **Table 4 "Strengths and weaknesses comparison"** (第7页)：正文已包含此表，本附录为完整保留版本
-- **Section 6.3 "Cross-Linguistic Patterns"** (第6页)：正文提到"H1, H2, H3验证"，本附录表格提供数据支撑
-
-**说明：** Table 9展示三种方法（Sup-FT、Prompt-A、Iter-Ens）在三种语言上的所有评估指标，Table 10从7个维度对比三种方法的优缺点。这些表格是正文Table 1和Table 4的扩展版本，提供更全面的方法对比数据。
 
 ## Table 9: Cross-Linguistic Panoramic Performance Comparison of Three Methods
 
