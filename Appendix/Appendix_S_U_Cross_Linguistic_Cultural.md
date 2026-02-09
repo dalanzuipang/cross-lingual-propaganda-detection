@@ -1,37 +1,6 @@
 # S CROSS-LINGUISTIC TECHNIQUE TABLES
 
-**对应论文正文位置：**
-- **Section 6.3** "Cross-Linguistic Patterns" - 本附录Table 24提供跨语言technique性能的系统性对比
-- 正文中提到："Across techniques, we observe: (i) language-sensitive techniques with large fluctuations (e.g., Name_Calling, Appeal_to_Hypocrisy)... (ii) comparatively robust techniques (e.g., Doubt, Loaded_Language)... (iii) occasional single-language dominance (e.g., Russian on Doubt)"
 
-**内容说明：**
-Table 24展示10个主要techniques在三个语言上的F1对比，识别最大gap及其发生的语言对，揭示：
-- 最大差异：Questioning_Reputation (0.800 RU vs 0.000* EN)
-- 最小差异：Loaded_Language (0.074), Doubt (0.099)
-- Language-specific优势：Polish在Name_Calling，Russian在Doubt
-
----
-
-# U CULTURAL DIMENSION-BASED PERSONALIZATION (EXPLORATORY)
-
-**对应论文正文位置：**
-- **Section 8.2** "Personalized Calibration" - 本附录是"(2) Optional Personalization Signals (Exploratory)"的详细展开
-- 正文中提到："We treat culture-related factors as hypothesis generators rather than evidence. As a future direction, one may explore optional user-facing calibration signals"
-
-**内容说明：**
-本附录提出两个探索性的个性化knobs（**仅作为假设生成，非因果证据**）：
-- **Potential knob 1**: Salience of personal targeting（基于Name_Calling的跨语言差异）
-- **Potential knob 2**: Tolerance for uncertainty cues（基于Doubt的跨语言差异）
-
-**重要声明**：这些是假设而非实证结论，需要通过受控用户研究验证。正文强调："any such mapping must be validated with controlled user studies"
-
-**对应正文位置：**
-- **Section 6.3 "Cross-Linguistic Patterns"** (第6页)：正文提到"language-sensitive techniques with large fluctuations (e.g., Name_Calling, Appeal_to_Hypocrisy)... comparatively robust techniques (e.g., Doubt, Loaded_Language)"，本附录Table 24提供10个主要技术的跨语言F1对比
-- **Section 8.2 "Personalized Calibration" - Optional Personalization Signals** (第8页)：正文提到"culture-related factors as hypothesis generators"，本附录U详细讨论基于文化维度的个性化knobs
-
-**说明：** 本文档包含两个附录内容：
-- **Appendix S (Table 24)**: 10个主要技术的跨语言F1对比，标注最大gap和发生位置（如Name_Calling: PL vs RU gap=0.255）
-- **Appendix U**: 探索性的文化维度个性化框架，提出两个潜在calibration knobs（Knob 1: 个人攻击salience，Knob 2: 不确定性容忍度），强调这是hypothesis-generating而非empirical evidence，需要用户研究验证
 
 ## Table 24: Cross-linguistic F1 comparison of major techniques (Sup-FT)
 
