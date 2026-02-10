@@ -1,4 +1,4 @@
-# Resource Paradox in Multilingual Propaganda Detection — Code Release (UMAP 2026)
+# Code Release
 
 This repository contains the companion code for the work:
 
